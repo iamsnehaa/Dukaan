@@ -1,0 +1,75 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    align-items: center; /* Ensures content is vertically centered */
+    padding: 0 50px; /* Added padding for spacing from the edges */
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px; /* Increased gap for better spacing */
+    padding-left: 150px; /* Reduced padding for better alignment */
+    line-height: 1.2; /* Slightly increased line height for readability */
+}
+
+.hero-left h2 {
+    color: #090909;
+    font-size: 24px; /* Increased font size for better emphasis */
+    font-weight: 600;
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 72px; /* Slightly reduced font size for better balance */
+    font-weight: 600;
+    margin: 0; /* Removed any default margin */
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Slightly reduced gap for better alignment */
+}
+
+.hero-hand-icon img {
+    width: 90px; /* Reduced the width for better scaling */
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Reduced gap for a tighter look */
+    width: 280px; /* Reduced width for better proportion */
+    height: 50px;
+    border-radius: 50px; /* Slightly reduced border-radius */
+    margin-top: 20px;
+    background: #ff4141;
+    color: white;
+    font-size: 18px; /* Slightly reduced font size */
+    font-weight: 500;
+    cursor: pointer; /* Added cursor pointer for interactivity */
+    transition: background 0.3s ease; /* Added transition for smooth background change */
+}
+
+.hero-latest-btn:hover {
+    background: #e13333; /* Darkened background on hover */
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px; /* Added padding for spacing */
+}
+
+.hero-right img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures the image fits well within its container */
+}

@@ -1,0 +1,71 @@
+.new-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* Increased gap for a more spacious feel */
+    height: auto; /* Adjusts to fit the content naturally */
+    padding: 40px; /* Added padding for a more open feel */
+    background: linear-gradient(135deg, #e0eafc, #f0f4f8); /* Subtle gradient background */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.new-collections h1 {
+    color: #333; /* Slightly lighter color for better readability */
+    font-size: 52px; /* Larger font size for emphasis */
+    font-weight: 700; /* Bold weight for stronger emphasis */
+    text-align: center; /* Centered text for better alignment */
+    text-transform: uppercase; /* Uppercase text for a modern look */
+    letter-spacing: 1px; /* Added letter-spacing for a sleek appearance */
+}
+
+.new-collections hr {
+    width: 180px; /* Adjusted width for balance */
+    height: 4px; /* Slightly reduced height */
+    border-radius: 10px;
+    background: #ff6b6b; /* Bright, eye-catching color */
+    border: none; /* Removed border for a clean look */
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid with larger items */
+    margin-top: 20px; /* Reduced margin-top for a closer feel */
+    gap: 20px; /* Adjusted gap for a neat arrangement */
+    width: 100%; /* Full width for responsiveness */
+    max-width: 1200px; /* Maximum width for large screens */
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white; /* Clean background for product cards */
+    border-radius: 10px; /* Rounded corners for product cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+}
+
+.product:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for images */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+.product h2 {
+    color: #333;
+    font-size: 24px; /* Adjusted font size for balance */
+    margin: 10px 0; /* Spacing around the title */
+}
+
+.product p {
+    color: #666; /* Lighter color for prices */
+    font-size: 16px; /* Smaller font size for prices */
+}

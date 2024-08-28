@@ -1,0 +1,63 @@
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 80%; /* Adjusted width for better alignment */
+    max-width: 1200px; /* Ensures the banner doesn’t get too wide on large screens */
+    border-radius: 15px; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.shopcategory-indexSort {
+    display: flex;
+    margin: 0 10%; /* Adjusted margin for consistent alignment */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0; /* Added padding for better spacing */
+    border-bottom: 2px solid #e0e0e0; /* Subtle bottom border for separation */
+}
+
+.shopcategory-sort {
+    padding: 12px 24px; /* Increased padding for a more prominent look */
+    border-radius: 30px; /* Slightly rounded corners */
+    border: 1px solid #888;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.shopcategory-sort:hover {
+    background-color: #e0e0e0; /* Light grey background on hover */
+    color: #333; /* Darker text color on hover */
+}
+
+.shopcategory-products {
+    margin: 20px 10%; /* Margin around the grid container */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 30px; /* Increased gap for spacing between items horizontally */
+    row-gap: 40px; /* Increased vertical spacing between rows */
+}
+
+
+
+.shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto; /* Reduced margin for a tighter layout */
+    width: 250px; /* Slightly increased width for better proportion */
+    height: 70px; /* Slightly increased height for balance */
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 18px;
+    font-weight: 500; /* Added font weight for emphasis */
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.shopcategory-loadmore:hover {
+    background: #dcdcdc; /* Slightly darker background on hover */
+    color: #555; /* Darker text color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow effect on hover */
+}

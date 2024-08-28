@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Changed to space-between for better alignment */
+    align-items: center; /* Ensures all items are vertically centered */
+    padding: 16px 40px; /* Added horizontal padding for better spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Softened and expanded the shadow for a more subtle effect */
+    background-color: #ffffff; /* Added background color for contrast */
+    position: relative; /* Prepared for any absolute positioning if needed */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 34px; /* Slightly reduced font size for balance */
+    font-weight: 700; /* Increased font weight for emphasis */
+    margin: 0; /* Removed any default margin */
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px; /* Reduced gap for better alignment */
+    color: #626262;
+    font-size: 18px; /* Slightly reduced font size */
+    font-weight: 500;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Slightly increased gap for better spacing */
+    cursor: pointer;
+    position: relative; /* Allows for better control over child elements */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-menu li:hover {
+    color: #ff414f; /* Changes color on hover for interactivity */
+}
+
+.nav-menu hr {
+    border: none;
+    width: 60%; /* Reduced width for a sleeker look */
+    height: 3px;
+    border-radius: 10px;
+    background: #ff414f;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+.nav-menu li:hover hr {
+    opacity: 1; /* Shows the underline on hover */
+}
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 35px; /* Reduced gap for better spacing */
+}
+
+.nav-login-cart button {
+    width: 150px; /* Adjusted width */
+    height: 50px; /* Adjusted height */
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 50px; /* Slightly reduced border-radius */
+    color: #515151;
+    font-size: 18px; /* Reduced font size */
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+}
+
+.nav-login-cart button:hover {
+    background: #f0f0f0; /* Lightened background on hover */
+    color: #333; /* Darkened text color on hover */
+}
+
+.nav-login-cart button:active {
+    background: #e0e0e0; /* Darkened background when active */
+}
+
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}

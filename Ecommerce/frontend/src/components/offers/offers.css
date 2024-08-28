@@ -1,0 +1,66 @@
+.offers {
+    width: 70%; /* Slightly increased width for better centering */
+    height: 60vh;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 100px; /* Reduced padding for a more balanced look */
+    margin-bottom: 100px; /* Reduced bottom margin for better spacing */
+    background: linear-gradient(100deg, #fde1ff, #e1ffea22 60%);
+    border-radius: 20px; /* Added border-radius for a softer look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
+}
+
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px; /* Added padding for spacing */
+}
+
+.offers-left h1 {
+    color: #171717;
+    font-size: 70px; /* Slightly reduced font size for better readability */
+    font-weight: 600;
+    margin-bottom: 15px; /* Added margin for spacing */
+}
+
+.offers-left p {
+    color: #171717;
+    font-size: 22px;
+    font-weight: 500; /* Slightly reduced weight for a more balanced look */
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.offers-left button {
+    width: 250px; /* Reduced button width for better proportion */
+    height: 60px; /* Reduced height for a sleeker appearance */
+    border-radius: 30px; /* Slightly adjusted border-radius */
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 20px; /* Slightly reduced font size */
+    font-weight: 500;
+    margin-top: 20px; /* Reduced margin for a tighter layout */
+    cursor: pointer;
+    transition: background 0.3s ease; /* Added smooth background transition */
+}
+
+.offers-left button:hover {
+    background: #e13333; /* Darkened background on hover for interaction feedback */
+}
+
+.offers-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px; /* Reduced padding for better alignment */
+}
+
+.offers-right img {
+    width: 100%; /* Ensured the image is responsive */
+    max-width: 400px; /* Constrained the maximum size */
+    border-radius: 15px; /* Added border-radius to match the design */
+    object-fit: cover; /* Ensured the image covers its container */
+}
