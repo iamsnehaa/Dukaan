@@ -1,6 +1,5 @@
 # 🛍️ **Dukaan** – Your Ultimate Online Shopping Platform  
-
-![Dukaan Banner](https://via.placeholder.com/1000x400?text=Dukaan+E-commerce)  
+  
 
 🚀 **Dukaan** is a beautifully designed and interactive **e-commerce platform** built using **React**. It offers a seamless shopping experience with a modern UI and smooth navigation.  
 
